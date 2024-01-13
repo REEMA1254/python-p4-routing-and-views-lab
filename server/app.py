@@ -39,3 +39,7 @@ def math(num1, operation, num2):
 
 if __name__ == '__main__':
     app.run(debug=True, port=5555)
+
+export FLASK_APP=app/app.py
+export FLASK_RUN_PORT=5555
+
